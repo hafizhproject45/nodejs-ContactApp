@@ -40,7 +40,7 @@ To show command
 
 To add contact 
 ```bash
-  node . add --nama="" --email --noHp=""
+  node . add --nama="" --email="" --noHp=""
 ```
 
 To show all list contact 
