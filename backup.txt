@@ -1,0 +1,34 @@
+// * menuliskan string ke file secara (synchronous)
+
+// try {
+//   fs.writeFileSync("test.txt", "Hello World secara synchronous");
+// } catch (err) {
+//   console.log(err);
+// }
+
+// * menuliskan string ke file secara (asynchronous)
+// fs.writeFileSync("data/test.txt", "Hello World secara asynchronous", (err) => {
+//   console.log(err);
+// });
+
+// * membaca isi file secara (synchronous)
+// const data = fs.readFileSync("data/test.txt", "utf8");
+// console.log(data);
+
+// * membaca isi file secara (asynchronous)
+// const data = fs.readFileSync("data/test.txt", "utf8", (err, data) => {
+//   if (err) throw err;
+//   console.log(data);
+// });
+
+
+// const { tulisPertanyaan, simpanContact } = require("./contacts");
+
+// const main = async () => {
+//   const nama = await tulisPertanyaan("Masukkan nama anda: ");
+//   const email = await tulisPertanyaan("Masukkan email anda: ");
+//   const noHp = await tulisPertanyaan("Masukkan nomo HP anda: ");
+
+//   simpanContact(nama, email, noHp);
+// };
+// main();
