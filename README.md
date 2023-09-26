@@ -17,6 +17,12 @@ Go to the project directory
   cd nodejs-ContactApp
 ```
 
+Open project with text editor
+
+```bash
+  code .
+```
+
 Install dependencies
 
 ```bash
